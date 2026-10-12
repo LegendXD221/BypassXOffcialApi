@@ -1,0 +1,21 @@
+{
+  "name": "bypassx-official-api",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Free standalone REST API wrapper for Alysse, UseBypass, and OmegaTech",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/api-server.js",
+    "dev": "tsx watch src/api-server.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
